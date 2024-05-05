@@ -5,10 +5,12 @@
 // step 2: [4,5,1,2,3]
 // step 3: [3,4,5,1,2]
 
+// unshift : The unshift() method adds new elements to the beginning of an array
+
 
 function arrayRotation(arr, numberOfRotation){
     for(let i=0; i<numberOfRotation; i++){
-        arr.unshift(arr.pop());
+        arr.unshift(arr.pop());    
     }
     return arr;
 }
